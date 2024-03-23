@@ -54,7 +54,7 @@ while int(time.time()) < end_time:
                 print("Something else went wrong")
 
             # If there are 6 minutes or less in the last quarter and if the score between the two teams is 5 points or less.
-            if quarterTime <= 6 and abs(home_team_score - away_team_score) <= 5 and quarterTime > 3:
+            if quarterTime <= 7 and abs(home_team_score - away_team_score) <= 5 and quarterTime > 3:
 
                     # Appends home team to 'do not send' list.
                     games_acknowledged.append(home_team_name)
