@@ -5,7 +5,7 @@ Buzzer Beeater looks for NBA games that are in the 4th quarter with 7 minutes le
 If the score is within 5 points and above 5 minutes, it will send the signal via email.
 The user can then place a bet that the game's score will end within 5 points.
 
-![IMG_1507](https://github.com/joel-1080p/buzzer_beaters/assets/156847809/af777a68-a177-4ca1-a9d1-dae1f6310557)
+![IMG_1507](https://github.com/joel-1080p/buzzer_beaters/assets/156847809/f521497b-36a8-41be-b8d4-4989a598c710)
 
 ## HOW TO USE IT
 Set `buzzer_beaters.py` to run Monday through Saturday at 6PM during the NBA season.
