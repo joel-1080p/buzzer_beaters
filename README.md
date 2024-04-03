@@ -1,17 +1,19 @@
 # NBA Buzzer Beater
 
-### BUZZER BEATER STRATEGY
-Buzzer Beeater looks for NBA games that in the 4th quarter with 7 minutes left in the game.
-If the score is within 5 points and above 5 minutes, it will send the signal via emal.
-The user can then place a bet that the game will end within 5 minutes.
+## BUZZER BEATER STRATEGY
+Buzzer Beeater looks for NBA games that are in the 4th quarter with 7 minutes left in the game.
+If the score is within 5 points and above 5 minutes, it will send the signal via email.
+The user can then place a bet that the game's score will end within 5 points.
 
-### HOW TO USE IT
+![IMG_1507](https://github.com/joel-1080p/buzzer_beaters/assets/156847809/af777a68-a177-4ca1-a9d1-dae1f6310557)
+
+## HOW TO USE IT
 Set `buzzer_beaters.py` to run Monday through Saturday at 6PM during the NBA season.
 In the `email_list.csv`, put all of the emails you'd like the signal to be sent to.
 In `config.py`, put the email that's going to be sending the signal from.
 NOTE : Look into setting an App Password for this to work.
 
-### DELIVERY TOOLS
+## DELIVERY TOOLS
 `delivery_tools.py` is a class I created to send signals in multiple ways.
 You can send signals vis 
 - Discord
