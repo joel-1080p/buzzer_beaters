@@ -11,6 +11,7 @@ The user can then place a bet that the game's score will end within 5 points.
 Set `buzzer_beaters.py` to run Monday through Saturday at 6PM during the NBA season.
 In the `email_list.csv`, put all of the emails you'd like the signal to be sent to.
 In `config.py`, put the email that's going to be sending the signal from.
+
 NOTE : Look into setting an App Password for this to work.
 
 ## DELIVERY TOOLS
