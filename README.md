@@ -16,7 +16,7 @@ NOTE : Look into setting an App Password for this to work.
 
 ## DELIVERY TOOLS
 `delivery_tools.py` is a class I created to send signals in multiple ways.
-You can send signals vis 
+You can send signals via 
 - Discord
 - Email
 - SMS text
